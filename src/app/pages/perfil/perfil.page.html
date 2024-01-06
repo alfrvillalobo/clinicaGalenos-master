@@ -1,0 +1,30 @@
+<div>
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title class="ion-text-center">
+        Clinica Galenos
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+</div>  
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">    
+    <ion-tab-button tab="Toma de Hora" [routerLink]="['/toma-hora']">
+      <ion-icon name="calendar-outline"></ion-icon>
+      Toma de Hora
+    </ion-tab-button>
+    <ion-tab-button tab="Menu" [routerLink]="['/main-paciente']">
+      <ion-icon name="home-outline"></ion-icon>
+      Menu
+    </ion-tab-button>
+    <ion-tab-button tab="Mi Agenda" [routerLink]="['/mi-agenda']">
+      <ion-icon name="file-tray-full-outline"></ion-icon>
+      Mi Agenda
+    </ion-tab-button>
+    <ion-tab-button tab="Perfil" [routerLink]="['/perfil']">
+      <ion-icon name="person-outline"></ion-icon>
+      Perfil
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
